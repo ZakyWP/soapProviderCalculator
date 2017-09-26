@@ -34,6 +34,9 @@ namespace CalculatorSOAPDLL
 
         [OperationContract]
         double Add1(double num1, double num2);
+
+        [OperationContract]
+        double Subtract1(double num1, double num2);
     }
 
 
